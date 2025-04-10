@@ -11,6 +11,5 @@ function calculateSum() {
   const number2 = parseFloat(num2);
   const sum = addNumbers(number1, number2); 
   console.log(sum); 
-  alert("Сумма: " + sum);
 }
 window.onload = calculateSum;
