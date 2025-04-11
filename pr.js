@@ -2,7 +2,7 @@ function addNumbers(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
     return "Пожалуйста, введите два числа.";
   }
-  return a + b;
+ return a - b;  // <--- Изменила + на -
 }
 function calculateSum() {
   const num1 = prompt("Введите первое число:");
